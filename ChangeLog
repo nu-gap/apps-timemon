@@ -1,0 +1,81 @@
+2005-01-25 09:01 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* Percentages.m: Removed some of the extra errors and 
+	added one which makes sense for how it is reading the
+	/proc/stat file now.
+
+2005-01-25 00:03 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* Percentages.m: Reformatted some code
+	* TimeMonColors.m: Reformatter some code
+	* TimeMonP.png: Composited icon and "NO" sign
+	* TimeMonWraps.m: Changed colors
+
+2005-01-23 22:47 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* English.lproj/TimeMon.gorm: Added readmeText outlet and 
+	connection.
+	* GNUmakefile: Added README.rtf as a resource.
+	* Percentages.h: Added readmeText outlet
+	* Percentages.m: Added awakeFromNib method.
+	* README.rtf: Updated with information about the GNUStep port
+
+2005-01-23 19:18 Gregory John Casamento <greg_casamento@yahoo.com>
+                 On behalf of Alex Malmberg, suggested the following changes:
+	* Percentages.m: Change sizeof(long) to sizeof(CPUTime) after the
+	previous change in loadave.h.
+
+2005-01-23 17:28 Gregory John Casamento <greg_casamento@yahoo.com>
+                 On behalf of Alex Malmberg, who made the following changes:
+	* GNUmakefile: Updated to show all warnings.
+	* loadave.c: Rewrote entirely
+	* loadave.h: Rewrote entirely
+	* Percentages.h: Redefined CPUTime
+	* Percentages.m: Removed unecessary conditional.
+	* TimeMonColors.m: Added call to setColor.
+	* TimeMonInfo.plist: Added alex, tarzeau and myself as authors.
+	* TimeMonWraps.m: Redefined IDLE, removed the unneeded functions.
+
+2005-01-09 13:33 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* GNUmakefile: Reverted previous change.
+
+2005-01-09 11:32 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* GNUmakefile: removed some things
+	* Percentages.m: new image implementation
+	* TimeMonWraps.m: added some dummy methods.
+
+2005-01-02 19:18 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* Percentages.m: Removed func. decl.
+	* TimeMonWraps.h: added function decl.
+	* TimeMonWraps.m: added functions.
+
+2005-01-02 16:52 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* English.lproj/TimeMon.gorm: New icon in info panel.
+	* GNUmakefile: Copy images to resources.
+	* Percentages.m: include math.h.  Changed drawing code.
+	* icon.png: New image
+	* TimeMonInfo.plist: New file.
+	* TimeMonP.png: New image
+
+2005-01-02 14:15 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* TimeMonWraps.h: Added file.
+	
+2005-01-01 15:34 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* English.lproj/TimeMon.gorm: Improved look of text and
+	replaced NSTextView.
+
+2005-01-01 12:56 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* TimeMon_main.m: Corrected main to use NSApplicationMain().
+
+2005-01-01 12:50 Gregory John Casamento <greg_casamento@yahoo.com>
+
+	* TimeMon_main.m: Changed sig of main and corrected loadNibNamed call.
+	* TimeMonWraps.m: Empty functions.
+
